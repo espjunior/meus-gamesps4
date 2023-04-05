@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container-pai {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem; /*Espaço entre os jogos*/
+    padding: 8px;
+    background-color: rgb(44, 68, 249);
+    
+}
+
+.jogo01 img {
+    width: 180px;
+}
+
+.godofwarragnorok {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 6px black; /*Sombreamento das caixas*/
+    background-color: rgb(212, 217, 244);
+}
+
+.godofwarragnorok ul {
+    text-align: center;
+} 
+
+.nomedojogo { /*TEXTO DO NOME DO JOGO*/
+    font-weight: bold;
+    padding: 4px;
+}
+
+.precodojogo { /*TEXTO DO PREÇO DO JOGO*/
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.modopagamento { /*TEXTO DO NOME DA FORMA DE PAGAMENTO*/
+    font-size: 13px;
+}
+
+.container-rodape {
+    display: flex;
+    margin-top: 30px;
+    height: 60px;
+    background-color: lightgreen;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-rodape {
+    font-weight: bold;
+}
+
+.botaocomprar {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 89, 24);
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-top: -7px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.botaoindisponivel {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 7, 7);
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-top: -10px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
