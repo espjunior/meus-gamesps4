@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     text-decoration: none;
     list-style: none;
     font-family: sans-serif;
@@ -10,15 +11,16 @@
 
 .container-header {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(72, 72, 229);
-    height: 40vh;
+    height: 50vh;
+    background-image: url(../imagens/topocell.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 
-h1 {
+h2 {
     text-align: center;
+    margin-top: 10px;
     padding: 10px;
 }
 
